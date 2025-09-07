@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form</title>
+</head>
+<body>
+
+    <h2>Enter Employee Details</h2>
+
+    <form action="#" method="post">
+        <label for="employee-id">Employee ID:</label>
+        <input type="text" id="employee-id" name="employee-id"><br><br>
+
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name"><br><br>
+
+        <label for="department">Department:</label>
+        <select id="department" name="department">
+            <option value="HR">HR</option>
+            <option value="IT">IT</option>
+            <option value="Finance">Finance</option>
+        </select><br><br>
+
+        <label for="salary">Salary:</label>
+        <input type="number" id="salary" name="salary"><br><br>
+
+        <label for="experience">Experience (Years): Select Skills:</label>
+        <select id="experience" name="experience">
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="C++">C++</option>
+        </select><br><br>
+
+        <label for="job-description">Job Description:</label><br>
+        <textarea id="job-description" name="job-description" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
